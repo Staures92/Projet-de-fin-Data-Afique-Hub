@@ -70,32 +70,5 @@ st.info("Cette application utilise un modèle d'apprentissage automatique pour a
               #  streamlit run frontend.py      
               
          
-           # Deploy the Streamlit app
-          # To deploy the Streamlit app, you can use various platforms like Heroku, AWS, or Streamlit Sharing.
-           # we will be deploying to Heroku:
-
-# Sign up for a Heroku account at https://signup.heroku.com/.
-# Install the Heroku CLI by following the instructions provided in the Heroku documentation.
-# Create a requirements.txt file in your project directory. This file should contain the necessary dependencies for your Streamlit app.
-# Create a Procfile in your project directory. This file specifies the command to start your Streamlit app. For example, if your main Streamlit
-# app file is called streamlit_app.py, the Procfile should contain:
-#  web: streamlit run streamlit_app.py
-
-
-
-
-
- # Initialize a new Git repository in your project directory (if not already initialized) using the command: git init
-
-# Add your files to the Git repository using the command: git add .
-# Commit your changes using the command: git commit -m "Initial commit"
-
-# Log in to your Heroku account using the command: heroku login
-
-# Create a new Heroku app using the command: heroku create <app-name>(mine was megang-churn-app)
- # enter this command: heroku    git:remote    -a staures-churn-app
-
-# Deploy your app to Heroku using the command: git push heroku master
-
-# Once the deployment is complete, you can access your app using the URL provided by Heroku.
+  
 
